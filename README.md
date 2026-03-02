@@ -6,8 +6,7 @@
 
 - `index.html`: 메인 페이지
 - `about.html`: 회사 소개
-- `contact.html`: B2B 문의
-- `thanks.html`: 문의 접수 완료 페이지
+- `contact.html`: 연락처 안내 페이지
 - `privacy.html`: 개인정보처리방침
 - `assets/logo.png`: 브랜드 로고
 - `assets/styles.css`: 공통 스타일
@@ -27,11 +26,6 @@
    - Build output directory: `/`
 5. Deploy 클릭
 6. 배포 완료 후 `*.pages.dev` 주소에서 동작 확인
-
-## 문의 폼 동작 방식
-
-- `contact.html`의 폼은 `FormSubmit`으로 연결되어 있으며 `contact@verasionworks.com`으로 전송됩니다.
-- 첫 번째 테스트 제출 시 FormSubmit 활성화 메일이 발송됩니다. 메일에서 승인해야 실제 운영 전송이 시작됩니다.
 
 ## 커스텀 도메인 연결
 

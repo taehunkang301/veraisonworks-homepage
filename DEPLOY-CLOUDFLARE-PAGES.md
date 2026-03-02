@@ -48,19 +48,6 @@ git push -u origin main
 - 수정 -> `main` 브랜치 push -> Cloudflare Pages 자동 재배포
 - 문제 발생 시: Pages -> Deployments -> 실패 배포 로그 확인
 
-## 6) 문의 폼(FormSubmit) 확인
-
-현재 `contact.html`은 아래 설정으로 실제 메일 전송됩니다.
-
-- 전송 주소: `contact@verasionworks.com`
-- 폼 액션: `https://formsubmit.co/contact@verasionworks.com`
-- 완료 페이지: `https://verasionworks.com/thanks.html`
-
-운영 전 체크:
-
-1. 첫 테스트 제출 후 수신된 FormSubmit 승인 메일에서 폼을 활성화
-2. `verasionworks.com` 연결 전 테스트 시 `_next` 주소를 임시 도메인으로 변경 필요
-
 ## 권장 추가 작업
 
 - Google Search Console / 네이버 서치어드바이저 등록

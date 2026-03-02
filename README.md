@@ -9,7 +9,7 @@
 - `contact.html`: B2B 문의
 - `thanks.html`: 문의 접수 완료 페이지
 - `privacy.html`: 개인정보처리방침
-- `assets/logo.svg`: 브랜드 로고
+- `assets/logo.png`: 브랜드 로고
 - `assets/styles.css`: 공통 스타일
 
 ## 로컬 확인

@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;700&family=Manrope:wght@400;500;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/styles.css" />
@@ -19,7 +19,7 @@
   <body>
     <header class="site-header">
       <a class="brand" href="index.html">
-        <img class="brand-logo" src="assets/logo.svg" alt="Verasion Works logo" />
+        <img class="brand-logo" src="assets/logo.png" alt="Verasion Works logo" />
         <span>
           <span class="brand-ko">베레종 웍스</span>
           <span class="brand-en">Verasion Works</span>
@@ -37,48 +37,49 @@
         문의를 남겨주시면 입력한 이메일로 접수 확인 메일이 전송됩니다.
       </p>
 
-      <form class="contact-form" action="https://formsubmit.co/contact@verasionworks.com" method="post">
-        <input type="hidden" name="_subject" value="[Verasion Works] B2B 문의가 도착했습니다." />
-        <input type="hidden" name="_next" value="https://verasionworks.com/thanks.html" />
-        <input type="hidden" name="_captcha" value="false" />
-        <label>
-          업장명
-          <input type="text" name="company" required />
-        </label>
-        <label>
-          담당자 성함
-          <input type="text" name="name" required />
-        </label>
-        <label>
-          연락처 이메일
-          <input type="email" name="email" required />
-        </label>
-        <label>
-          지역
-          <input type="text" name="region" placeholder="예: 서울 강남" />
-        </label>
-        <label>
-          월 예상 물량(병)
-          <input type="number" name="volume" min="1" />
-        </label>
-        <label>
-          문의 내용
-          <textarea name="message" rows="6" required></textarea>
-        </label>
-        <button class="btn btn-primary" type="submit">문의 보내기</button>
-      </form>
+      <div class="contact-layout">
+        <form class="contact-form" action="https://formsubmit.co/contact@verasionworks.com" method="post">
+          <input type="hidden" name="_subject" value="[Verasion Works] B2B 문의가 도착했습니다." />
+          <input type="hidden" name="_next" value="https://verasionworks.com/thanks.html" />
+          <input type="hidden" name="_captcha" value="false" />
+          <label>
+            업장명
+            <input type="text" name="company" required />
+          </label>
+          <label>
+            담당자 성함
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            연락처 이메일
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            지역
+            <input type="text" name="region" placeholder="예: 서울 강남" />
+          </label>
+          <label>
+            월 예상 물량(병)
+            <input type="number" name="volume" min="1" />
+          </label>
+          <label>
+            문의 내용
+            <textarea name="message" rows="6" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">문의 보내기</button>
+        </form>
 
-      <section class="page-section compact">
-        <h2>직접 연락</h2>
-        <p>Email: contact@verasionworks.com</p>
-        <p>Instagram: @verasion.works</p>
-        <p>Tel: +82-2-0000-0000</p>
-      </section>
+        <section class="page-section compact contact-direct">
+          <h2>직접 연락</h2>
+          <p>Email: contact@verasionworks.com</p>
+          <p>Instagram: @verasion.works</p>
+        </section>
+      </div>
     </main>
 
     <footer class="site-footer">
       <p>© 2026 Verasion Works. All rights reserved.</p>
-      <a href="https://www.instagram.com/verasion.works" target="_blank" rel="noreferrer">Instagram @verasion.works</a>
+      <a href="https://www.instagram.com/veraison.works" target="_blank" rel="noreferrer">Instagram @verasion.works</a>
       <a href="privacy.html">개인정보처리방침</a>
     </footer>
   </body>
